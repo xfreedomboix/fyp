@@ -108,7 +108,7 @@ $(document).ready(function() {
   </head>
 <body>
 <?php
-if (isset($_SESSION['user'])){
+
 
  $suc = mysql_query("SELECT * FROM announcements ORDER BY date DESC LIMIT 5");  
 $username = $_SESSION['user'];
@@ -183,7 +183,7 @@ $identity = $_SESSION['identity'];
 <img src="pictures/index.png" class="indexbg">
 <img src="pictures/line.png" class="indexline">
 
-<?php if ($identity=="student"){ ?>
+
  <ul class="aa">
   <li><a href="index.php">Home</a></li>
   <?php
@@ -285,7 +285,7 @@ $classname=$lleft['subchap_name'];
 <div class="content1">Start new?</div>
 </div>
 
-<?php } else if($identity=="teacher"){?>
+
  <ul class="aa">
   <li><a href="index.php">Home</a></li>
   <li><a href="uploadpdf.php?a=def">Lesson</a></li>
@@ -413,9 +413,7 @@ echo $studname.'</td><td>'.$loginhour." hour(s) ".$loginmin." minute(s)".'</td><
 }
 ?></tbody></table>
 </div>
-<?php } 
 
-?>
 <button class="tgl"><</button>
 	<div class="playerlocation" id="playerlocation">
 
@@ -457,20 +455,6 @@ echo $studname.'</td><td>'.$loginhour." hour(s) ".$loginmin." minute(s)".'</td><
 
 	
 	</div> 
-<?php
-
-
-
-}
-
-else{
-
-echo '<script>alert("Please login!"); window.location= "mainlogin.html";</script>';
-
-}
-
-
-?>
 
 
 </body>
