@@ -10,41 +10,7 @@ $id = $_SESSION['ID'];?>
 	   <link rel="stylesheet" href="css/mainpagecss.css" >
 	    <link  rel="stylesheet" href="css/bootstrap.min.css"/>
 	   <link  rel="stylesheet" href="css/teacher.css"/>
-	   <?php
-if(isset($_SESSION['user']))
-{ 
-    $ses = $id; //tell freichat the userid of the current user
-
-    setcookie("freichat_user", "LOGGED_IN", time()+3600, "/"); // *do not change -> freichat code
-}
-else {
-    $ses = null; //tell freichat that the current user is a guest
-
-    setcookie("freichat_user", null, time()+3600, "/"); // *do not change -> freichat code
-} 
-
-if(!function_exists("freichatx_get_hash")){
-function freichatx_get_hash($ses){
-
-       if(is_file("C:/xampp/htdocs/freichat/hardcode.php")){
-
-               require "C:/xampp/htdocs/freichat/hardcode.php";
-
-               $temp_id =  $ses . $uid;
-
-               return md5($temp_id);
-
-       }
-       else
-       {
-               echo "<script>alert('module freichatx says: hardcode.php file not
-found!');</script>";
-       }
-
-       return 0;
-}
-}
-?>
+	
 <script type="text/javascript" language="javascipt" src="http://localhost:81/freichat/client/main.php?id=<?php echo $ses;?>&xhash=<?php echo freichatx_get_hash($ses); ?>"></script>
 	<link rel="stylesheet" href="http://localhost:81/freichat/client/jquery/freichat_themes/freichatcss.php" type="text/css">    
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>	
@@ -110,9 +76,7 @@ $(document).ready(function() {
 <?php
 
 
- $suc = mysql_query("SELECT * FROM announcements ORDER BY date DESC LIMIT 5");  
-$username = $_SESSION['user'];
-$identity = $_SESSION['identity'];
+
 ?>
 <div class="mainhead"><font style="font-family:cursive;font-size:15px;">&nbsp;&nbsp; Welcome Back</font><div class="title"><img src="mmu2.png" border="0" height="20" width="30"><font style="font-family:cursive;font-size:15px;">Data Communications And Networking Learning App</font></div>
 <div class="dropdown">
