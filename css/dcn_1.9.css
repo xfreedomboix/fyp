@@ -1,0 +1,172 @@
+div.chselect{
+
+	position: absolute;
+	top: 900;
+	left: 800;
+	
+}
+img.vidbg{
+	position:absolute;
+	top:60;
+	left:500;
+	
+}
+div.vidtwo{
+	position:absolute;
+	top:0;
+	left:25;
+	
+}
+body{
+	background-color:#F1F1F1;
+}
+#gray {
+  background-color:#333;
+	color: white; 
+	font-size:15px;
+	text-align:center;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+   border-radius: 20px;
+   
+}
+
+
+div.page{
+	font-size: 20px;
+	position: absolute;
+	top: 870;
+	left: 800;
+}
+div.content {
+    display: none;
+	position: absolute;
+	top: 60;
+	left: 470;
+}
+div.cmt{
+	font-size: 20px;
+	position: absolute;
+	top: 870;
+	left: 930;
+}
+
+div.lol{
+position:absolute;
+top: 1000px;
+left: 700;
+
+}
+
+div.kappa{
+width:500px;
+background-color:white;
+margin-top:-10px;
+margin-left:0px;
+text-align:left;
+}
+div.kappa1{
+width:500px;
+background-color:transparent;
+margin-top:-10px;
+margin-left:50px;
+text-align:left;
+}
+.kappa .name
+{
+height:50px;
+line-height:30px;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+font-size: 15px;
+}
+.kappa .comment
+{
+padding:10px;
+font-size: 20px;
+}
+.kappa .time
+{
+font-style:italic;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+}
+textarea
+{
+width:500px;
+height:100px;
+border:1px solid silver;
+border-radius:5px;
+font-size:17px;
+padding:10px;
+font-family:helvetica;
+}
+input[type="text"]
+{
+width:500px;
+height:35px;
+border:1px solid silver;
+margin-top:10px;
+border-radius:5px;
+font-size:17px;
+padding:10px;
+font-family:helvetica;
+}
+.commentbutton
+{
+width:150px;
+height:40px;
+border:none;
+background-color:#2E64FE;
+color:white;
+margin-top:10px;
+border-radius:5px;
+font-size:17px;
+}
+.comment_div
+{
+width:500px;
+background-color:white;
+margin-top:10px;
+text-align:left;
+}
+.comment_div .name
+{
+height:50px;
+line-height:30px;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+font-size: 15px;
+}
+.comment_div .comment
+{
+padding:10px;
+font-size: 20px;
+}
+.comment_div .time
+{
+font-style:italic;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+}
+.replybutton
+{
+	width:50px;
+height:20px;
+border:none;
+background-color:#2E64FE;
+color:white;
+margin-top:10px;
+border-radius:5px;
+font-size:10px;
+}

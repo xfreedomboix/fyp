@@ -1,0 +1,77 @@
+font.teachfont{
+	font-size:20px;
+	font-family:cursive;
+	font-weight:bold;
+	
+}
+div.tag1{
+	position:fixed;
+	margin-top: -30px;
+	left: 250;
+}
+div.tag2{
+	position:fixed;
+	margin-top: -30px;
+	left: 1000;
+}
+div.tag3{
+	position:fixed;
+	margin-top: -30px;
+	left: 625;
+}
+div.lastlog1{
+	position:fixed;
+	margin-top:10px;
+	margin-left:150px;
+}
+
+div.highmark1{
+	position:fixed;
+	margin-top:10px;
+	margin-left:900px;
+}
+
+div.logintime1{
+	position:fixed;
+	margin-top:360px;
+	margin-left:525px;
+}
+.teachtable {
+color: #333;
+font-family: Helvetica, Arial, sans-serif;
+width: 640px;
+border-collapse:
+collapse; border-spacing: 0;
+}
+
+.teachtable td, th {
+border: 1px solid transparent; 
+height: 30px;
+transition: all 0.3s; 
+
+}
+
+th.red {
+background: #ea6153; 
+font-weight: bold;
+color: white;
+}
+th.green{
+font-weight: bold;
+    background: #27ae60;
+	color: white;
+  
+}
+th.blue{
+	font-weight: bold;
+	  background: #2980b9;
+	  color: white;
+}
+.teachtable tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+
+.teachtable td {
+background: #FAFAFA;
+text-align: left;
+}

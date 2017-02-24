@@ -1,0 +1,222 @@
+html { 
+  background: url(../pictures/lesson.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a:visited{
+	
+    color: white;
+}
+a:link{
+	color:white;
+}
+
+ul.obj { 
+list-style-type: none; }
+div.chselect{
+
+	position: absolute;
+	top: 880;
+	left: 800;
+	
+}
+div.nextpg{
+	position:absolute;
+	left:1600;
+	top:300;
+	
+}
+div.prevpg{
+	position:absolute;
+	left:-30;
+	top:300;
+	
+}
+div.one{
+	position:absolute;
+	margin-left:750px;
+	margin-top:135px;
+}
+div.two{
+	position:absolute;
+	margin-left:350px;
+	margin-top:351px;
+}
+div.three{
+	position:absolute;
+	margin-left:765px;
+	margin-top:545px;
+}
+div.four{
+	position:absolute;
+	margin-left:1180px;
+		margin-top:350px;
+}
+div.five{
+	position:absolute;
+	margin-left:885px;
+		margin-top:545px;
+}
+div.six{
+	position:absolute;
+	margin-left:1030px;
+		margin-top:545px;
+}
+div.seven{
+	position:absolute;
+	margin-left:1250px;
+	margin-top:350px;
+}
+
+#gray {
+  background-color:#333;
+	color: white; 
+	font-size:15px;
+	text-align:center;
+  -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+   border-radius: 20px;
+   
+}
+
+
+div.page{
+	font-size: 20px;
+	position: absolute;
+	top: 850;
+	left: 800;
+	color:white;
+}
+div.content {
+    display: none;
+	position: absolute;
+	top: 100;
+}
+div.cmt{
+	font-size: 20px;
+	position: absolute;
+	top: 850;
+	left: 910;
+}
+
+div.lol{
+position:absolute;
+top: 1000px;
+left: 700;
+
+}
+
+div.kappa{
+width:500px;
+background-color:white;
+margin-top:-10px;
+margin-left:0px;
+text-align:left;
+}
+div.kappa1{
+width:500px;
+background-color:transparent;
+margin-top:-10px;
+margin-left:50px;
+text-align:left;
+}
+.kappa .name
+{
+height:50px;
+line-height:30px;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+font-size: 15px;
+}
+.kappa .comment
+{
+padding:10px;
+font-size: 20px;
+}
+.kappa .time
+{
+font-style:italic;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+}
+textarea
+{
+width:500px;
+height:100px;
+border:1px solid silver;
+border-radius:5px;
+font-size:17px;
+padding:10px;
+font-family:helvetica;
+}
+input[type="text"]
+{
+width:500px;
+height:35px;
+border:1px solid silver;
+margin-top:10px;
+border-radius:5px;
+font-size:17px;
+padding:10px;
+font-family:helvetica;
+}
+.commentbutton
+{
+width:150px;
+height:40px;
+border:none;
+background-color:#2E64FE;
+color:white;
+margin-top:10px;
+border-radius:5px;
+font-size:17px;
+}
+.comment_div
+{
+width:500px;
+background-color:white;
+margin-top:10px;
+text-align:left;
+}
+.comment_div .name
+{
+height:50px;
+line-height:30px;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+font-size: 15px;
+}
+.comment_div .comment
+{
+padding:10px;
+font-size: 20px;
+}
+.comment_div .time
+{
+font-style:italic;
+padding:10px;
+background-color:grey;
+color:white;
+text-align:left;
+}
+.replybutton
+{
+	width:50px;
+height:20px;
+border:none;
+background-color:#2E64FE;
+color:white;
+margin-top:10px;
+border-radius:5px;
+font-size:10px;
+}
