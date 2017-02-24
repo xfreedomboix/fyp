@@ -1,4 +1,4 @@
 <?php
-LOL XD;
+echo "LOL XD";
 
 ?>
